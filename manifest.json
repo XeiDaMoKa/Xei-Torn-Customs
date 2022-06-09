@@ -1,0 +1,38 @@
+
+
+
+
+
+{
+    "name": "● Xei • Torn  •",
+    "description": "Custom Torn.com",
+    "version": "0.0.1",
+    "author": "XeiDaMoKa [2373510]",
+    "manifest_version": 3,
+    "host_permissions": ["*://*.torn.com/*"],
+    "icons": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+
+    "action": {
+      "default_title": "● Xei • Torn • Settings",
+      "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.torn.com/*"],
+        "css": ["● Xei • Torn  • Geral.css"],
+        "js": ["jquery.js","● Xei • Torn  • Geral.js"]
+      },
+
+      {
+        "matches": ["*://*.torn.com/events*"],
+        "css": ["● Xei • Torn  • Events.css"],
+        "js": ["jquery.js","● Xei • Torn  • Events.js"]
+      }
+    ]
+}
