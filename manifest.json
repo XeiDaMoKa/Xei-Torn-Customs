@@ -1,8 +1,3 @@
-
-
-
-
-
 {
     "name": "● Xei • Torn  •",
     "description": "Custom Torn.com",
@@ -23,16 +18,16 @@
     },
 
     "content_scripts": [
-      {
-        "matches": ["*://*.torn.com/*"],
-        "css": ["● Xei • Torn • Geral •/● Xei • Torn • Geral.css"],
-        "js": ["/jquery.js","● Xei • Torn • Geral •/● Xei • Torn • Geral.js"]
-      },
+        {
+          "matches": ["*://*.torn.com/*"],
+          "css": ["● Xei • Torn • Geral •/● Xei • Torn • Geral.css"],
+          "js": ["/jquery.js","● Xei • Torn • Geral •/● Xei • Torn • Geral.js"]
+        },
 
-      {
-        "matches": ["*://*.torn.com/events*"],
-        "css": ["● Xei • Torn • Events •/● Xei • Torn • Events.js"],
-        "js": ["/jquery.js","● Xei • Torn • Events •/● Xei • Torn • Events.js"]
-      }
+        {
+          "matches": ["*://*.torn.com/events*"],
+          "css": ["● Xei • Torn • Events •/● Xei • Torn • Events.js"],
+          "js": ["/jquery.js","● Xei • Torn • Events •/● Xei • Torn • Events.js"]
+        }
     ]
 }
