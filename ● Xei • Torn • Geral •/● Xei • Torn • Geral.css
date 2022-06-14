@@ -1,12 +1,101 @@
-body {
-    background-color: #1c0028 !important;
+
+
+
+/* Color of Background */
+
+    body {
+
+        background-color : #1c0028 !important
 }
 
 
 
 
 
+/* Color of Titles */
 
+    h4  {
+
+        color : #f50 !important ;
+        
+}
+
+
+
+
+
+/* Color of SubTitles */
+
+    .line-h24 { 
+
+        color : #f50 !important ;
+}
+
+
+
+
+
+/* Color of SubTitles w/ icons in Events */
+
+    .mailbox-action { 
+
+        color : #f50 !important ;
+}
+
+
+
+
+
+/* Hide 'Information' , 'Areas' & 'Lists' Titles */
+
+    h2 { 
+
+        display : none ;
+}
+
+
+
+
+
+/* Hide 'Name:' , 'Money:' , 'Level:' & 'Points:' Subtitle */
+
+    .menu-name___heK6G , .name___MTEAw { 
+
+        display : none !important ;
+}
+
+
+
+
+
+/* Hide Number of 'Level:' */
+
+    .point-block___to3YE:nth-child(2) {
+
+        display: none ;
+}
+
+
+
+
+
+/* Hide 'Points' 'use' Link  */    
+
+    .use___a1Viq { 
+
+        display : none ;
+}
+
+
+
+
+
+/* Hide Titles of Bars & Chain */    
+
+    .bar-name____TPeD , .bar-name___NgsFr { 
+
+        display : none ;
+}
 
 
 
