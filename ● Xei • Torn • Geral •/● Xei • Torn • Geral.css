@@ -101,7 +101,201 @@
 
 
 
+/* Color of 'Energy' */
 
+    .content___mJm7x .bar-desktop___plbRj:nth-child(1) p:nth-child(2) {
+
+        padding-left : 2px ;
+
+        color : #93f707 ;
+
+        font-size : 12.5px
+}
+
+
+
+
+
+/* Color of 'Nerve' */
+
+div a:nth-child(2) p:nth-child(2) {
+
+    padding-left : 2px ;
+
+    color : #ff6a00 ;
+
+    font-size : 12.5px
+}
+
+
+
+
+
+/* Color of 'Happy' */
+
+.content___mJm7x .bar-desktop___plbRj:nth-child(3) p:nth-child(2) {
+
+    padding-left : 2.5px ;
+
+    color : #e6e86d ;
+
+    font-size : 12.5px
+}
+
+
+
+
+/* Color of 'Life' */
+
+div a:nth-child(4) p:nth-child(2) {
+
+    padding-left : 1px ;
+
+    color : #6587ff ;
+
+    font-size : 12.5px
+}
+
+
+
+
+
+/* Move "O/C" */
+
+    .content___mJm7x div .bar-desktop___QNIen div p:nth-child(2) {
+
+        padding-left : 3px
+}
+
+
+
+
+
+/* Color of "Friends" */
+
+.area-desktop___Gy9J0:nth-child(1) .desktopLink___uhT_W {
+
+    color : #19ff05
+}
+
+
+
+
+
+/* Color of "Friends" Number */
+
+#nav-friends .amount___r6ydH {
+
+    color : #19ff05
+}
+
+
+
+
+/* Color of "Enemies" */
+
+.area-desktop___Gy9J0:nth-child(2) .desktopLink___uhT_W {
+
+    color : #ff0f0f
+}
+
+
+
+
+/* Color of "Enemies" Numer */
+
+#nav-enemies .amount___r6ydH {
+
+    color : #ff0f0f
+}
+
+
+
+/* Center 'XeiDaMoKa' Container */
+
+    .menu-info-row___EClni {
+    
+        text-align : center
+}
+
+
+/* Color of 'XeiDaMoKa' */
+
+    .menu-info-row___EClni a {
+
+        color : rgb(250 , 75 , 0) !important ;
+
+        font-size : 15px ;
+
+        font-weight : 750 !important
+}
+
+
+
+
+
+/* Center 'Money' Container */
+
+    .point-block___to3YE:nth-child(1) {
+    
+        text-align : center
+}
+
+
+/* Color of 'Money' */
+
+    #user-money {
+
+        color : rgb(0,175,0) !important ;
+
+        font-size : 15px ;
+
+        font-weight : 750 !important
+}
+
+
+
+
+
+/* Center 'Points' Container */
+
+div div div div div div div div div div div:nth-child(2) p:nth-child(3) {
+    
+        text-align : center !important
+}
+
+
+/* Color of 'Points' */
+
+    .value___h3QSJ:nth-child(2) {
+
+        color : rgb(0,100,200) !important ;
+
+        font-size : 16px !important ;
+
+        font-weight : 750 !important
+}
+
+
+
+
+
+/* Hide TornTools Award Timer */ 
+
+    .tt-awards-time-ago {
+
+        display: none 
+}
+
+
+
+
+
+.tt-container.tt-theme-background .title {
+        
+        color: #f50 !important ;
+        font-weight: bold !important ;
+}
 
 
 

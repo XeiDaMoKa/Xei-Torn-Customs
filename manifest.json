@@ -27,7 +27,6 @@
 
         {
           "matches": ["*://*.torn.com/events*"],
-          "css": ["/● Xei • Torn • Events •/● Xei • Torn • Events.js"],
           "js": ["jquery.js","/● Xei • Torn • Events •/● Xei • Torn • Events.js"]
         }
     ]
