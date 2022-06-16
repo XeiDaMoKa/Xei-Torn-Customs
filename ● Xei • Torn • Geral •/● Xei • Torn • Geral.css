@@ -17,7 +17,7 @@
     h4  {
 
         color : #f50 !important ;
-        
+
 }
 
 
@@ -26,7 +26,7 @@
 
 /* Color of SubTitles */
 
-    .line-h24 { 
+    .line-h24 {
 
         color : #f50 !important ;
 }
@@ -37,7 +37,7 @@
 
 /* Color of SubTitles w/ icons in Events */
 
-    .mailbox-action { 
+    .mailbox-action {
 
         color : #f50 !important ;
 }
@@ -48,7 +48,7 @@
 
 /* Hide 'Information' , 'Areas' & 'Lists' Titles */
 
-    h2 { 
+    h2 {
 
         display : none ;
 }
@@ -59,7 +59,7 @@
 
 /* Hide 'Name:' , 'Money:' , 'Level:' & 'Points:' Subtitle */
 
-    .menu-name___heK6G , .name___MTEAw { 
+    .menu-name___heK6G , .name___MTEAw {
 
         display : none !important ;
 }
@@ -79,9 +79,9 @@
 
 
 
-/* Hide 'Points' 'use' Link  */    
+/* Hide 'Points' 'use' Link  */
 
-    .use___a1Viq { 
+    .use___a1Viq {
 
         display : none ;
 }
@@ -90,9 +90,9 @@
 
 
 
-/* Hide Titles of Bars & Chain */    
+/* Hide Titles of Bars & Chain */
 
-    .bar-name____TPeD , .bar-name___NgsFr { 
+    .bar-name____TPeD , .bar-name___NgsFr {
 
         display : none ;
 }
@@ -214,7 +214,7 @@ div a:nth-child(4) p:nth-child(2) {
 /* Center 'XeiDaMoKa' Container */
 
     .menu-info-row___EClni {
-    
+
         text-align : center
 }
 
@@ -237,7 +237,7 @@ div a:nth-child(4) p:nth-child(2) {
 /* Center 'Money' Container */
 
     .point-block___to3YE:nth-child(1) {
-    
+
         text-align : center
 }
 
@@ -260,7 +260,7 @@ div a:nth-child(4) p:nth-child(2) {
 /* Center 'Points' Container */
 
 div div div div div div div div div div div:nth-child(2) p:nth-child(3) {
-    
+
         text-align : center !important
 }
 
@@ -280,22 +280,27 @@ div div div div div div div div div div div:nth-child(2) p:nth-child(3) {
 
 
 
-/* Hide TornTools Award Timer */ 
+/* Hide TornTools Award Timer */
 
     .tt-awards-time-ago {
 
-        display: none 
+        display: none
 }
 
 
 
 
 
-.tt-container.tt-theme-background .title {
-        
+    .tt-container.tt-theme-background .title {
+
         color: #f50 !important ;
+
         font-weight: bold !important ;
 }
 
 
 
+.point-block___to3YE:nth-child(4) {
+
+    display: none ;
+}
