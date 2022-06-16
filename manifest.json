@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "author": "XeiDaMoKa [2373510]",
     "manifest_version": 3,
-    "host_permissions": ["*://*.torn.com/*"],
+
     "icons": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
@@ -17,17 +17,20 @@
       "default_popup": "/popup.html"
     },
 
-    "content_scripts": [      
+    "host_permissions": ["*://*.torn.com/*"],
+    "content_scripts": [
         {
-          "matches": ["*://*.torn.com/*"],          
-          "css": ["● Xei • Torn • Geral •/● Xei • Torn • Geral.css"],
-          "js": ["/jquery.js","● Xei • Torn • Geral •/● Xei • Torn • Geral.js"]
-          
+          "matches": ["*://*.torn.com/*"],
+          "css": ["Geral/● Xei • Torn • Geral.css"],
+          "js": ["jquery.js","Geral/● Xei • Torn • Geral.js"]
         },
-
+        {
+          "matches": ["*://*.torn.com/*"],
+          "js": ["jquery.js","iFrames/● Xei • Torn • iFrames.js"]
+        },
         {
           "matches": ["*://*.torn.com/events*"],
-          "js": ["jquery.js","/● Xei • Torn • Events •/● Xei • Torn • Events.js"]
+          "js": ["jquery.js","Events/● Xei • Torn • Events.js"]
         }
     ]
 }
