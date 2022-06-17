@@ -317,5 +317,5 @@ div div div div div div div div div div div:nth-child(2) p:nth-child(3) {
 
     .d .t-blue-cont a , .link-text , .server-name___DSWCP {
 
-        color : rgb(0,175,225)
+        color : rgb(0,175,225) !important ;
 }
