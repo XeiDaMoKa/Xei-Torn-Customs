@@ -4,11 +4,13 @@
 
     $('body').prepend(
 
-        "<iframe id='ivault' class='iframes' scrolling='no'"
-        +
-        "style='display:none; position:fixed; width:850px; height:326px; left:34%; top:13%;z-index:99; border:10px solid #1a0029 ; outline:1px solid #f50'"
-        +
-        "src= 'https://www.torn.com/properties.php#/p=options&tab=vault' </iframe>"
+        " <iframe "
+            +
+            " id='ivault' class='iframes' scrolling='no' " +
+            " style='display:none ; position:fixed ; width:850px ; height:326px ; left:34% ; top:13% ; z-index:99 ; border:10px solid #1a0029 ; outline:1px solid #f50' " +
+            " src= 'https://www.torn.com/properties.php#/p=options&tab=vault' "
+            +
+        " </iframe> "
     )
 ;
     checkIframeLoaded()
@@ -25,6 +27,7 @@
             $('#ivault').show();
 
         }, 1000)
+
     })
 ;
 
@@ -35,12 +38,13 @@
     $('body').click(function() {
 
         $('#ivault').hide()
+
     })
 ;
 
 
 
-// Hide if its Loaded
+// Hide if Loaded
 
     function checkIframeLoaded() {
 
@@ -53,7 +57,9 @@
             if (!$(a).length) {
 
                 window.setTimeout(checkIframeLoaded, 250);
+
             }
+
     }
 ;
 
