@@ -1,5 +1,5 @@
 {
-    "name": "● Xei • Torn  •",
+    "name": "Xei ● Torn • Customs",
     "description": "Torn.com Customs and Improvments",
     "version": "0.0.1",
     "author": "XeiDaMoKa [2373510]",
@@ -13,7 +13,7 @@
     },
 
     "action": {
-      "default_title": "● Xei • Torn • Settings",
+      "default_title": "Xei ● Torn • Settings",
       "default_popup": "/popup.html"
     },
 
@@ -21,16 +21,16 @@
     "content_scripts": [
         {
           "matches": ["*://*.torn.com/*"],
-          "css": ["Geral/● Xei • Torn • Geral.css"],
-          "js": ["jquery.js","Geral/● Xei • Torn • Geral.js"]
+          "css": ["Geral/Xei ● Torn • Geral.css"],
+          "js": ["jquery.js" , "Geral/Xei ● Torn • Geral.js"]
         },
         {
           "matches": ["*://*.torn.com/*"],
-          "js": ["jquery.js","iFrames/● Xei • Torn • iFrames.js"]
+          "js": ["jquery.js" , "iFrames/Xei ● Torn • iFrames • iVault.js" , "iFrames/Xei ● Torn • iFrames • iRefill.js"]
         },
         {
           "matches": ["*://*.torn.com/events*"],
-          "js": ["jquery.js","Events/● Xei • Torn • Events.js"]
+          "js": ["jquery.js" , "Events/Xei ● Torn • Events.js"]
         }
     ]
 }
