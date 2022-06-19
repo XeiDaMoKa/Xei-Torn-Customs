@@ -53,7 +53,7 @@
     function checkiVaultLoaded() {
 
         let a = $("#ivault").contents().find(" body ");                                                  // Background color
-        let b = $("#ivault").contents().find(" #header-root , #sidebarroot , #chatRoot ");               // Header , Sideber &
+        let b = $("#ivault").contents().find(" #header-root , #sidebarroot , #chatRoot ");               // Header , Sideber & Chat
         let c = $("#ivault").contents().find(" .m-bottom10 ");                                           // Title
         let d = $("#ivault").contents().find(" .info-msg ");                                             // Info
         let e = $("#ivault").contents().find(" .property-info-cont ");                                   // Property
@@ -67,6 +67,7 @@
             if ($(e).length) $(e).hide();
             if ($(f).length) $(f).hide();
             if ($(g).length) $(g).hide();
+
 
                 if (!$(a).length || !$(b).length || !$(c).length || !$(d).length || !$(e).length || !$(f).length || !$(g).length) {
 
