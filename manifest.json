@@ -26,7 +26,7 @@
         },
         {
           "matches": ["*://*.torn.com/*"],
-          "js": ["jquery.js" , "iFrames/Xei ● Torn • iFrames • Vault.js" , "iFrames/Xei ● Torn • iFrames • Refill.js"]
+          "js": ["jquery.js" , "iFrames/xedx iframes.js" , "iFrames/Xei ● Torn • iFrames • Refill.js"]
         },
         {
           "matches": ["*://*.torn.com/events*"],

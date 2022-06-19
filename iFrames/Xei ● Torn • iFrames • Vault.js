@@ -18,34 +18,20 @@
 
 
 
-// Show & Hide iFrame
 
-    $('#user-money').mouseover(function(){
+ 
+ $('#user-money').bind(click, function() {  
+    $('#ivault').show(); })
+    
+ $('#user-money').bind(dbclick, function() { 
+    location = 'properties.php#/p=options&tab=vault'; })
 
-        $('#ivault').show();
 
-    })
-;
 
-    $('#user-money').mouseout(function(){
+$('body').click(function(){
 
-        $('#ivault').hide();
-    })
-;
-
-    $('#ivault').mouseover(function(){
-
-        $('#ivault').show();
-
-    })
-;
-
-    $('#ivault').mouseout(function(){
-
-        $('#ivault').hide();
-    })
-;
-
+    $('#ivault').hide();
+});
 
 
  // Hide inside iframe if its loaded

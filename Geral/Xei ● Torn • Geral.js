@@ -11,18 +11,6 @@ $(' .life___Zr748 ')
 
 
 
- // Click 'Money' value to go to Vault //
-
-$(' #user-money ')
-
-.click(function(){
-
-        location = 'properties.php#/p=options&tab=vault';
-}
-)
-;
-
-
 
 
 
