@@ -1,11 +1,14 @@
+.myHideClass {
 
+    display: none ;
+}
 
 
 /* Color of Background */
 
 body {
 
-    background-color : #1c0028 !important
+    background-color : #1c0028 !important;
 }
 
 
